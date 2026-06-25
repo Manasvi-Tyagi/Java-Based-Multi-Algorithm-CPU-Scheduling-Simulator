@@ -1,0 +1,10 @@
+| Module               | Purpose                       | OOP Concept            |
+| -------------------- | ----------------------------- | ---------------------- |
+| Process              | Store process data            | Encapsulation          |
+| Scheduler            | Common contract               | Abstraction            |
+| FCFS/Priority        | Different algorithms          | Inheritance            |
+| schedule()           | Same call, different behavior | Polymorphism           |
+| ReportGenerator      | Common reporting behavior     | Interface              |
+| StatisticsCalculator | Separate responsibility       | Modular Design         |
+| ProcessFactory       | Object creation               | Separation of Concerns |
+| Main                 | Orchestration                 | Loose Coupling         |
