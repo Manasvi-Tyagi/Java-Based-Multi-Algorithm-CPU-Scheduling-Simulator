@@ -94,14 +94,7 @@ int completed = 0;
                         turnaroundTime
                                 - current.getBurstTime();
 
-                result.add(
-                        new ProcessResult(
-                                current.getId(),
-                                completionTime,
-                                waitingTime,
-                                turnaroundTime
-                        )
-                );
+                result.add(new ProcessResult(current.getId(),completionTime,waitingTime, turnaroundTime));
             }
         }
 
