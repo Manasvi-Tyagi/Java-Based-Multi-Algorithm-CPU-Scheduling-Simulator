@@ -4,7 +4,7 @@
 
 ## Overview
 
-Mini Operating System Scheduler is a Java-based simulation of CPU scheduling algorithms designed to demonstrate core Operating System concepts and Object-Oriented Programming principles. The project provides implementations of multiple CPU scheduling strategies and generates performance metrics such as waiting time and turnaround time for comparison.
+Multi Algorithm CPU Scheduling Simulator is a Java-based simulation of CPU scheduling algorithms designed to demonstrate core Operating System concepts and Object-Oriented Programming principles. The project provides implementations of multiple CPU scheduling strategies and generates performance metrics such as waiting time and turnaround time for comparison.
 
 The system follows a modular architecture where scheduling algorithms, process management, statistics calculation, and reporting are separated into independent components.
 
@@ -79,9 +79,8 @@ Each package has a single responsibility:
 src
 │
 ├── process
-│   ├── Process.java
-│   └── ProcessState.java
-│
+│   └─── Process.java
+│   
 ├── scheduler
 │   ├── Scheduler.java
 │   ├── FCFSScheduler.java
@@ -98,7 +97,7 @@ src
 │   └── ConsoleReportGenerator.java
 │
 ├── input
-│   └── ProcessFactory.java
+│   └── ProcessInput.java
 │
 └── Main.java
 ```
@@ -238,9 +237,3 @@ This project helped in understanding:
 * Gantt Chart Generation
 * GUI Dashboard using JavaFX/Swing
 * CSV and PDF Report Generation
-
----
-
-## Author
-
-Garvit Tyagi
